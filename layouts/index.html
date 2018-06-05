@@ -13,9 +13,10 @@
 
                 <div class="container has-text-centered">
                     <!-- Cloud -->
-                    <div class="slide-wrapper">
-                        <!-- Large Cloud <img src="{{.Site.Params.logo1}}" style="border:0;box-shadow:none; !important" /> -->
-                        <div class="sliding-background"></div>
+                    <div class="bold-title {{ if .Site.Params.fadeIn | default true }}fade-in four{{ end }}">
+                        <!-- Large Cloud -->
+                        <img src="{{.Site.Params.logo1}}" style="border:0;box-shadow:none; !important" />
+
                     </div>
                     <!-- Product -->
                     <div class="subtitle is-3 {{ if .Site.Params.fadeIn | default true }}fade-in three{{ end }}">
@@ -49,7 +50,7 @@
                 <nav class="nav-center">
                     <a class="nav-item" href="#about">About</a> {{ if .Site.Params.showProjects }}
                     <a class="nav-item" href="#projects">Projects</a> {{ end }} {{ if .Site.Params.showBlog }}
-                    <a class="nav-item" href="#blog">Blog</a> {{ end }}
+                    <a class="nav-item" href="/blog/">Blog</a> {{ end }}
                     <a class="nav-item" href="#contact">Contact</a>
                 </nav>
                 <hr>
