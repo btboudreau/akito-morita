@@ -7234,6 +7234,8 @@ img {
     display: none
 }
 
+
+/*
 .slide-wrapper {
     overflow: hidden;
 }
@@ -7252,4 +7254,4 @@ img {
     100% {
         transform: translate3d(-1692px, 0, 0);
     }
-}
+}*/
